@@ -1,14 +1,12 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+pub mod window;
+pub mod dimension;
 
 #[cfg(test)]
 mod tests {
+    use crate::dimension::Size;
     use super::*;
 
     #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+    fn test_app() {
     }
 }
