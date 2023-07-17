@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 #[derive(Copy, Clone)]
 pub struct Size {
     width: f64,
